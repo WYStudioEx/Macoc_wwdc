@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>WWDC Changelog</title>
+        <link>https://github.com/insidegui/WWDC/raw/master/Releases/appcast_v5.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+		
+		<item>
+            <title>Version 7.3.3</title>
+			<description><![CDATA[
+				<p><em>This is a minor patch to version 7.3.2 that addresses an issue with the Raycast integration.</em></p>
+				<ul>
+				<li>Updated for WWDC 2021</li>
+				<li>Adds integration with <a href="https://raycast.com">Raycast</a> so that you can find your WWDC content there (this must be enabled in preferences)</li>
+				<li>Addresses an issue that prevented sessions from being unfavorited</li>
+				<li>Minor bug fixes</li>
+				</ul>
+			]]></description>
+            <pubDate>Mon, 7 Jun 2021 20:45:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.3.3/WWDC_v7.3.3-1024.dmg" sparkle:version="1024" sparkle:shortVersionString="7.3.3" length="20486414" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.3.2</title>
+			<description><![CDATA[
+				<p><em>This is a minor patch to version 7.3.1 that addresses an issue which caused links for live sessions to not reveal the correct tab within the app.</em></p>
+				<ul>
+				<li>Updated for WWDC 2021</li>
+				<li>Adds integration with <a href="https://raycast.com">Raycast</a> so that you can find your WWDC content there (this must be enabled in preferences)</li>
+				<li>Addresses an issue that prevented sessions from being unfavorited</li>
+				<li>Minor bug fixes</li>
+				</ul>
+			]]></description>
+            <pubDate>Mon, 7 Jun 2021 13:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.3.2/WWDC_v7.3.2-1022.dmg" sparkle:version="1022" sparkle:shortVersionString="7.3.2" length="20484126" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.3.1</title>
+			<description><![CDATA[
+				<p><em>This is a minor patch to version 7.3 that addresses an issue where Raycast integration wouldn't work when running on a macOS version below 11.3. The original release notes can be found below.</em></p>
+				<ul>
+				<li>Updated for WWDC 2021</li>
+				<li>Adds integration with <a href="https://raycast.com">Raycast</a> so that you can find your WWDC content there (this must be enabled in preferences)</li>
+				<li>Addresses an issue that prevented sessions from being unfavorited</li>
+				<li>Minor bug fixes</li>
+			</ul>
+			]]></description>
+            <pubDate>Wed, 3 Jun 2021 11:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.3.1/WWDC_v7.3.1-1021.dmg" sparkle:version="1021" sparkle:shortVersionString="7.3.1" length="20483768" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.3</title>
+			<description><![CDATA[
+				<ul>
+				<li>Updated for WWDC 2021</li>
+				<li>Adds integration with <a href="https://raycast.com">Raycast</a> so that you can find your WWDC content there (this must be enabled in preferences)</li>
+				<li>Addresses an issue that prevented sessions from being unfavorited</li>
+				<li>Minor bug fixes</li>
+			</ul>
+			]]></description>
+            <pubDate>Wed, 2 Jun 2021 14:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.3/WWDC_v7.3-1019.dmg" sparkle:version="1019" sparkle:shortVersionString="7.3" length="20483517" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.2</title>
+			<description><![CDATA[
+				<ul>
+				<li>Universal build for Intel and Apple Silicon</li>
+				<li>Updated app icon for macOS Big Sur</li>
+				<li>User interface adjustments for macOS Big Sur</li>
+				<li>Bug fixes</li>
+			</ul>
+			]]></description>
+            <pubDate>Mon, 5 Apr 2021 11:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.2/WWDC_v7.2-1016.dmg" sparkle:version="1016" sparkle:shortVersionString="7.2" length="12606603" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.1</title>
+			<description><![CDATA[
+				<p>This update improves the performance and reliability of the app, including fixes for common crashes which were affecting a significant number of users.</p>
+				
+				<ul>
+					<li>Fixes a crash that would occur when the directory in "~/Library/Application Support" used by the app had the wrong persmissions for the current user. The app will now display an appropriate error message in the UI.</li>
+					<li>Addresses a common crash that would occur while playing videos.</li>
+					<li>Fixes some syncing issues that could happen if the user deleted their iCloud data for the WWDC app.</li>
+					<li>The session summary text is now scrollable, leaving more space for the video area when it is not in full screen.</li>
+					<li>Fixes an issue that would prevent Clip Sharing from working when in the "Schedule" tab.</li>
+				</ul>
+			]]></description>
+            <pubDate>Mon, 20 Jul 2020 20:10:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.1/WWDC_v7.1.zip" sparkle:version="1008" sparkle:shortVersionString="7.1" length="11234594" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.1.1</title>
+			<description><![CDATA[
+				<p>This release adds a keyboard shortcut to access the Community tab and also fixes some common crashes caused by Realm.</p>
+			]]></description>
+            <pubDate>Mon, 14 Sep 2020 09:25:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.1.1/WWDC_v7.1.1.zip" sparkle:version="1010" sparkle:shortVersionString="7.1.1" length="11279092" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.1</title>
+			<description><![CDATA[
+				<p>This update improves the performance and reliability of the app, including fixes for common crashes which were affecting a significant number of users.</p>
+				
+				<ul>
+					<li>Fixes a crash that would occur when the directory in "~/Library/Application Support" used by the app had the wrong persmissions for the current user. The app will now display an appropriate error message in the UI.</li>
+					<li>Addresses a common crash that would occur while playing videos.</li>
+					<li>Fixes some syncing issues that could happen if the user deleted their iCloud data for the WWDC app.</li>
+					<li>The session summary text is now scrollable, leaving more space for the video area when it is not in full screen.</li>
+					<li>Fixes an issue that would prevent Clip Sharing from working when in the "Schedule" tab.</li>
+				</ul>
+			]]></description>
+            <pubDate>Mon, 20 Jul 2020 20:10:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.1/WWDC_v7.1.zip" sparkle:version="1008" sparkle:shortVersionString="7.1" length="11234594" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.0.2</title>
+			<description><![CDATA[
+				<p>Minor changes to get the app ready ahead of next week's event.</p>
+				<p>Apple has just released their official Developer app for macOS, <a href="https://apps.apple.com/app/apple-developer/id640199958">check it out in the App Store</a>.</p>
+
+				<h2>From the previous release:</h2>
+				
+				<h3>Welcome to WWDC for macOS version 7!</h3>
+
+				<p>This update has lots of fixes and improvements, as well as some cool new features.</p>
+
+				<ul>
+					<li>The app's UI has been modernized to look better in macOS Catalina, with new fonts and colors</li>
+					<li>The video player has also received a UI refresh to improve the contrast between controls and the background</li>
+					<li>Transcripts are now provided by Apple, which means they're the same as the ones in the Apple Developer app, including support for multiple languages</li>
+					<li>You can now search within a specific session's transcript</li>
+					<li>The transcript can now be detached into its own window, so you can rearrange your workspace with more flexibility, such as putting the video and transcript side-by-side in fullscreen</li>
+					<li>Meet the new Community tab: in partnership with CocoaHub, we're bringing you curated content from the community, including Apple announcements, blog posts, podcast episodes, conference videos, and more</li>
+					<li>Clip Sharing: if you've ever wanted to share a specific segment of a video with someone, you now can! With a downloaded video selected, just click the scissors button and select a portion of the video to share</li>
+				</ul>
+
+				<p><strong>NOTE: starting with this version, the app requires macOS Catalina (10.15) or later</strong></p>
+			]]></description>
+            <pubDate>Thu, 15 Jun 2020 15:30:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.0.2/WWDC_v7.0.2.zip" sparkle:version="1003" sparkle:shortVersionString="7.0.2" length="11325920" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7.0.1</title>
+			<description><![CDATA[
+				<p>This update contains a bug fix in the schedule tab.</p>
+
+				<h2>From the previous release:</h2>
+				
+				<h3>Welcome to WWDC for macOS version 7!</h3>
+
+				<p>This update has lots of fixes and improvements, as well as some cool new features.</p>
+
+				<ul>
+					<li>The app's UI has been modernized to look better in macOS Catalina, with new fonts and colors</li>
+					<li>The video player has also received a UI refresh to improve the contrast between controls and the background</li>
+					<li>Transcripts are now provided by Apple, which means they're the same as the ones in the Apple Developer app, including support for multiple languages</li>
+					<li>You can now search within a specific session's transcript</li>
+					<li>The transcript can now be detached into its own window, so you can rearrange your workspace with more flexibility, such as putting the video and transcript side-by-side in fullscreen</li>
+					<li>Meet the new Community tab: in partnership with CocoaHub, we're bringing you curated content from the community, including Apple announcements, blog posts, podcast episodes, conference videos, and more</li>
+					<li>Clip Sharing: if you've ever wanted to share a specific segment of a video with someone, you now can! With a downloaded video selected, just click the scissors button and select a portion of the video to share</li>
+				</ul>
+
+				<p><strong>NOTE: starting with this version, the app requires macOS Catalina (10.15) or later</strong></p>
+			]]></description>
+            <pubDate>Thu, 11 Jun 2020 14:30:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.0.1/WWDC_v7.0.1.zip" sparkle:version="1002" sparkle:shortVersionString="7.0.1" length="11326025" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 7</title>
+			<description><![CDATA[
+				<h2>Welcome to WWDC for macOS version 7!</h2>
+
+				<p>This update has lots of fixes and improvements, as well as some cool new features.</p>
+
+				<ul>
+					<li>The app's UI has been modernized to look better in macOS Catalina, with new fonts and colors</li>
+					<li>The video player has also received a UI refresh to improve the contrast between controls and the background</li>
+					<li>Transcripts are now provided by Apple, which means they're the same as the ones in the Apple Developer app, including support for multiple languages</li>
+					<li>You can now search within a specific session's transcript</li>
+					<li>The transcript can now be detached into its own window, so you can rearrange your workspace with more flexibility, such as putting the video and transcript side-by-side in fullscreen</li>
+					<li>Meet the new Community tab: in partnership with CocoaHub, we're bringing you curated content from the community, including Apple announcements, blog posts, podcast episodes, conference videos, and more</li>
+					<li>Clip Sharing: if you've ever wanted to share a specific segment of a video with someone, you now can! With a downloaded video selected, just click the scissors button and select a portion of the video to share</li>
+				</ul>
+
+				<p><strong>NOTE: starting with this version, the app requires macOS Catalina (10.15) or later</strong></p>
+			]]></description>
+            <pubDate>Wed, 03 Jun 2020 14:30:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/7.0/WWDC_v7.zip" sparkle:version="1001" sparkle:shortVersionString="7.0" length="11529629" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>	
+
+		<item>
+            <title>Version 6.2</title>
+			<description><![CDATA[
+				<ul>
+					<li>The app is now notarized</li>
+					<li>Adds a number of keyboard shortcuts:</li>
+					<ul>
+					    <li>Increase/reduce playback speed with plus or minus keys respectively</li>
+					    <li>Increase reverse speed/pause/increase forward speed with J/K/L respectively</li>
+					</ul>
+					<li>Section headers categorising sessions into Tracks now show when filters and searches are active</li>
+					<li>Improvements to the control overlay when viewing videos:</li>
+					<ul>
+					    <li>Increased contrast</li>
+					    <li>Fixes two issues which saw the control overlay stay on-screen when the mouse was not focused on the video</li>
+					</ul>
+					<li>Fixes an issue in which some related sessions were not shown</li>
+					<li>Fixes an issue with transcripts</li>
+					<li>Fixes a networking alert which was shown too readily</li>
+					<li>Fixes an issue which affected users who cancelled when changing their download directory</li>
+				</ul>
+			]]></description>
+            <pubDate>Mon, 06 Apr 2020 14:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.2/WWDC_v6.2.zip" sparkle:version="922" sparkle:shortVersionString="6.2" length="14221167" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 6.1.2</title>
+			<description><![CDATA[
+				<p>This is a nerdy release 🤓</p>
+				<ul>
+					<li>The app is now Swift 5</li>
+					<li>Improved error reporting</li>
+					<li>Converted our networking stack to use Codable instead of SwiftyJSON</li>
+					<li>Other smaller fixes and improvements</li>
+				</ul>
+			]]></description>
+            <pubDate>Tue, 14 May 2019 08:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.1.2/WWDC_v6.1.2.zip" sparkle:version="911" sparkle:shortVersionString="6.1.2" length="13807797" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 6.1</title>
+			<description><![CDATA[
+				<p><strong>Note: starting with this version, WWDC requires macOS 10.13 or later.</strong></p>
+				<ul>
+					<li>New "Featured" tab shows important new videos highlighted by Apple</li>
+					<li>The app is now optimized for macOS Mojave and will adopt the user's preferred accent color</li>
+					<li>New download manager: you can now see the progress and manage all downloads from a single location</li>
+					<li>Many other smaller fixes and improvements</li>
+				</ul>
+			]]></description>
+            <pubDate>Tue, 6 Nov 2018 11:30:00 -0200</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.1/WWDC_v6.1.zip" sparkle:version="900" sparkle:shortVersionString="6.1" length="22131729" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>	
+		
+		<item>
+            <title>Version 6.0.4</title>
+			<description><![CDATA[
+				<h3>Our "iOS 12" release</h3>
+				<p>WWDC came and went and a huge topic, especially for iOS 12, was performance and stability. Inspired by that, we're releasing WWDC for macOS 6.0.4, with the following fixes:</p>
+				<ul>
+					<li>Player timestamps now use the correct monospace system font</li>
+					<li>Optimized the UI for faster interactions</li>
+					<li>Fixed related sessions navigation so that it can expose the destination session</li>
+					<li>Fixed a hang that would occur sometimes when the app was loading its data</li>
+					<li>Fixed fullscreen player hiding incorrectly when browsing sessions</li>
+					<li>Fixed a hang that could occur when starting playback of a streaming video</li>
+					<li>Fixed an issue that would prevent the space bar from playing/pausing the video</li>
+					<li>Fixed an issue where the cursor would be hidden when switching spaces while playing in fullscreen</li>
+					<li>Transcripts from ASCIIWWDC are now downloaded over HTTPS</li>
+				</ul>
+				<h4>We also made some enhancements:</h4>
+				<ul>
+					<li>Enabled subtitles for 2017 and 2018 (thanks Mattt)</li>
+					<li>The player now allows play/pause while the app is not the frontmost app</li>
+					<li>It's now possible to seek using the keyboard arrow keys</li>
+					<li>Option-clicking the speed button on the player will go to the previous playback speed</li>
+					<li>In the share menu, there's now an option to copy the link for a session to the clipboard</li>
+				</ul>
+			]]></description>
+            <pubDate>Wed, 4 Jul 2018 14:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.0.4/WWDC_v6.0.4.zip" sparkle:version="822" sparkle:shortVersionString="6.0.4" length="16091220" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+        </item>		
+		
+		<item>
+            <title>Version 6.0.3</title>
+			<description><![CDATA[
+				<h3>This update fixes an important issue with live streaming, please update to be able to watch live sessions during the week.</h3>
+			]]></description>
+            <pubDate>Mon, 4 Jun 2018 22:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.0.2/WWDC_v6.0.2.zip" sparkle:version="812" sparkle:shortVersionString="6.0.2" length="16092321" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 6.0.3</title>
+			<description><![CDATA[
+				<p>Improves live streaming reliability.</p>
+			]]></description>
+            <pubDate>Tue, 5 Jun 2018 15:20:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.0.3/WWDC_v6.0.3.zip" sparkle:version="813" sparkle:shortVersionString="6.0.3" length="16096201" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+        </item>		
+		
+		<item>
+            <title>Version 6.0.2</title>
+			<description><![CDATA[
+				<h3>This update fixes an important issue with live streaming, please update to be able to watch live sessions during the week.</h3>
+			]]></description>
+            <pubDate>Mon, 4 Jun 2018 22:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.0.2/WWDC_v6.0.2.zip" sparkle:version="812" sparkle:shortVersionString="6.0.2" length="16092321" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 6.0.1</title>
+			<description><![CDATA[
+				<h2>This version contains some bugfixes so you can have a great experience during this WWDC week.<br>
+				Below are the full release notes for 6.0, in case you missed them:</h2>
+
+				<h3>WWDC 6.0 release notes</h3>
+				<h3>This is a major update of the app with some great new features and improvements:</h3>
+
+				<h4>iCloud Sync (beta)</h4>
+				<p>That's right! You can now sync your favorites, bookmarks and progress in videos between multiple computers. All you need is to be logged in to your iCloud account.</p>
+
+				<h4>Related Sessions</h4>
+				<p>When watching a specific session, we will show related sessions to you so you can binge watch and expand your learning.</p>
+
+				<h4>Session Links</h4>
+				<p>Some special events and labs require you to make an appointment, some special events have links for directions. We now show those important links at the bottom of the session details so you can schedule an appointment or find directions right from the app.</p>
+
+				<h4>"Now Playing" integration and Bluetooth control</h4>
+				<p>Playback in the app will now show in the "Now Playing" Notification Center widget. This also means you can control playback using your AirPods (or any other Bluetooth headphone).</p>
+
+				<h4>Touch Bar support</h4>
+				<p>The player now shows its controls in the Touch Bar so you can easily control playback anywhere in the app without moving your mouse.</p>
+
+				<h4>Calendar integration</h4>
+				<p>If you see a session in the schedule you'd really like to attend, just click the calendar button in the session details and an event will be added to your calendar. Remember you can still ask Siri to remind you about a session when you have it selected in the app!</p>
+
+				<h4>State restoration improvements</h4>
+				<p>You can quit the app without worrying about losing your place. Everything will be back where you left off when you launch it again, including search and filters.</p>
+
+				<h4>Improved Chromecast support</h4>
+				<p>We have updated Chromecast support to be even better and more stable, enjoy watching the keynote on your big screen.</p>
+			]]></description>
+            <pubDate>Sat, 2 Jun 2018 19:30:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.0.1/WWDC_v6.0.1.zip" sparkle:version="810" sparkle:shortVersionString="6.0.1" length="16090367" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 6.0</title>
+			<description><![CDATA[
+				<h2>Happy WWDC 2018! 🎉</h2>
+				<h3>This is a major update of the app with some great new features and improvements:</h3>
+				
+				<h4>iCloud Sync (beta)</h4>
+				<p>That's right! You can now sync your favorites, bookmarks and progress in videos between multiple computers. All you need is to be logged in to your iCloud account.</p>
+
+				<h4>Related Sessions</h4>
+				<p>When watching a specific session, we will show related sessions to you so you can binge watch and expand your learning.</p>
+
+				<h4>Session Links</h4>
+				<p>Some special events and labs require you to make an appointment, some special events have links for directions. We now show those important links at the bottom of the session details so you can schedule an appointment or find directions right from the app.</p>
+
+				<h4>"Now Playing" integration and Bluetooth control</h4>
+				<p>Playback in the app will now show in the "Now Playing" Notification Center widget. This also means you can control playback using your AirPods (or any other Bluetooth headphone).</p>
+
+				<h4>Touch Bar support</h4>
+				<p>The player now shows its controls in the Touch Bar so you can easily control playback anywhere in the app without moving your mouse.</p>
+
+				<h4>Calendar integration</h4>
+				<p>If you see a session in the schedule you'd really like to attend, just click the calendar button in the session details and an event will be added to your calendar. Remember you can still ask Siri to remind you about a session when you have it selected in the app!</p>
+
+				<h4>State restoration improvements</h4>
+				<p>You can quit the app without worrying about losing your place. Everything will be back where you left off when you launch it again, including search and filters.</p>
+
+				<h4>Improved Chromecast support</h4>
+				<p>We have updated Chromecast support to be even better and more stable, enjoy watching the keynote on your big screen.</p>
+			]]></description>
+            <pubDate>Wed, 30 May 2018 18:15:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/6.0/WWDC_v6.0.zip" sparkle:version="800" sparkle:shortVersionString="6.0" length="16085946" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+        </item>
+
+		<item>
+            <title>Version 5.3</title>
+			<description><![CDATA[
+				<ul>
+					<li>High Sierra compatibility improvements</li>
+					<li>The duration for a session's video is now shown in the detail view when available</li>
+					<li>The app has been converted to Swift 4 (thanks @otaviolima)</li>
+				</ul>
+						]]></description>
+            <pubDate>Sun, 24 Sep 2017 15:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.3/WWDC_v5.3.zip" sparkle:version="720" sparkle:shortVersionString="5.3" length="17551444" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.2</title>
+			<description><![CDATA[
+				<ul>
+					<li>You can now search by session number</li>
+					<li>Improved filtering performance and animation</li>
+					<li>We have set a maximum width for the sidebar</li>
+					<li>The sidebar width is now synchronized between the schedule and videos tabs</li>
+					<li>The sidebar width will now be restored when you quit the app</li>
+					<li>Closing the PiP window will no longer bring up the app</li>
+					<li>Fixed an issue that would prevent some videos from being marked as watched</li>
+					<li>Fixed a bug that would cause the thumbnails to not be loaded correctly sometimes</li>
+					<li>Fixed a rendering issue in back/forward buttons when set to 15s</li>
+					<li>Fixed an issue where the schedule would show non-schedule items when filtering</li>
+				</ul>
+						]]></description>
+            <pubDate>Fri, 8 Sep 2017 20:20:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.2/WWDC_v5.2.zip" sparkle:version="710" sparkle:shortVersionString="5.2" length="16008202" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.1.3</title>
+			<description><![CDATA[
+				<ul>
+					<li>You can now go back/forward in the video by 15 or 30 seconds</li>
+					<li>Filters are now saved and restored between app launches</li>
+				</ul>
+						]]></description>
+            <pubDate>Thu, 6 Jul 2017 10:30:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.1.3/WWDC_v5.1.3.zip" sparkle:version="660" sparkle:shortVersionString="5.1.3" length="15979200" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.1.2</title>
+			<description><![CDATA[
+				<ul>
+					<li>Fixes an issue where previously downloaded sessions with files deleted would still appear as downloaded</li>
+					<li>Improves transcript indexing, now transcripts become available as they're being indexed, not just after all transcripts have been indexed</li>
+					<li>Uses less disk space for the main database file</li>
+					<li>Fixes an issue where sessions would appear as downloaded on the sidebar when filtering even though they were not</li>
+					<li>Adds a "Reveal in Finder" menu item to the contextual menu on the sidebar</li>
+					<li>Improves performance of storage operations</li>
+				</ul>
+						]]></description>
+            <pubDate>Thu, 22 Jun 2017 19:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.1.2/WWDC_v5.1.2.zip" sparkle:version="650" sparkle:shortVersionString="5.1.2" length="15938766" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.1.1</title>
+			<description><![CDATA[
+				<p><em>NOTE: when you first launch this version of the app, it's going to redownload and reindex the session transcripts, this is neccessary to fix an issue that would occur when searching in previous versions.</em></p>
+				<ul>
+					<li>Fixed an issue where searching with transcripts enabled would return sessions that didn't match the selected filters</li>
+					<li>Improved behavior of the contextual menu for downloaded sessions</li>
+					<li>Fixed an issue where the computer would still enter screen saver or sleep during video playback</li>
+					<li>Overall performance improvements</li>
+				</ul>
+						]]></description>
+            <pubDate>Thu, 15 Jun 2017 14:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.1.1/WWDC_v5.1.1.zip" sparkle:version="620" sparkle:shortVersionString="5.1.1" length="15926652" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.1</title>
+			<description><![CDATA[
+				<ul>
+					<li>Fixed an issue where the app would hang for several seconds when launched</li>
+					<li>Improved look of special events and get-together thumbnails</li>
+					<li>Adds contextual menu to lists so you can easily change favorites, mark sessions as watched or download multiple sessions</li>
+					<li>Improved audio when playing videos at speeds higher than 1x</li>
+				</ul>
+						]]></description>
+            <pubDate>Tue, 13 Jun 2017 23:10:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.1/WWDC_v5.1.zip" sparkle:version="600" sparkle:shortVersionString="5.1" length="15927807" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.0.8</title>
+			<description><![CDATA[
+				<ul>
+					<li>Fixed a common crash in the previous version</li>
+				</ul>
+						]]></description>
+            <pubDate>Fri, 09 Jun 2017 00:25:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.0.8/WWDC_v5.0.8.zip" sparkle:version="580" sparkle:shortVersionString="5.0.8" length="15649684" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.0.7</title>
+			<description><![CDATA[
+				<ul>
+					<li>Preventing screensaver and computer sleep while playing videos</li>
+					<li>Fixed an issue that would prevent data from being loaded on some locales</li>
+					<li>Improved loading time</li>
+				</ul>
+						]]></description>
+            <pubDate>Tue, 08 Jun 2017 19:45:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.0.7/WWDC_v5.0.7.zip" sparkle:version="570" sparkle:shortVersionString="5.0.7" length="15650055" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.0.6</title>
+			<description><![CDATA[
+				<ul>
+					<li><strong>Chromecast support!</strong> You can now stream videos to your Chromecast.</li>
+					<li>You can now see and change the downloads folder in general preferences</li>
+					<li>Added 1.25x speed option to player</li>
+					<li>Improved thumbnails on the schedule</li>
+					<li>Improved sorting on the schedule</li>
+					<li>You can now cancel downloads by clicking the progress indicator</li>
+					<li>Fixed a crash that would occur sometimes when selecting "play" on a video</li>
+				</ul>
+						]]></description>
+            <pubDate>Tue, 04 Jun 2017 19:15:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.0.6/WWDC_v5.0.6.zip" sparkle:version="560" sparkle:shortVersionString="5.0.6" length="15646059" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.0.4</title>
+			<description><![CDATA[
+				<ul>
+					<li>Fixed a crash that would occur when filtering</li>
+					<li>Improved search results on both tabs</li>
+				</ul>
+						]]></description>
+            <pubDate>Tue, 30 May 2017 22:10:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.0.4/WWDC_v5.0.4.zip" sparkle:version="19" sparkle:shortVersionString="5.0.4" length="13142617" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.0.3</title>
+			<description><![CDATA[
+						<h3>WWDC 2017 schedule is now available</h3>
+						]]></description>
+            <pubDate>Tue, 30 May 2017 17:45:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.0.3/WWDC_v5.0.3.zip" sparkle:version="17" sparkle:shortVersionString="5.0.3" length="13141367" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+		<item>
+            <title>Version 5.0.1 beta</title>
+			<description><![CDATA[
+						<h3>Fixed lots of bugs and other issues from the first beta:</h3>
+						<ul>
+							<li>When filtering in the schedule view, the chronological order is now kept</li>
+							<li>The sidebar can now be shown/hidden using the "Toggle Sidebar" menu item or Command + Option + S</li>
+							<li>Many layout improvements and fixes here and there</li>
+							<li>Lists don't lose the filtering when switching tabs anymore</li>
+							<li>The text field for the bookmark annotation is only shown when an empty bookmark is selected</li>
+							<li>Filter popups no longer grow beyond the limits of the sidebar</li>
+							<li>Main tab items are now better aligned and spaced</li>
+							<li>ESC will now exit fullscreen correctly</li>
+							<li>Using the spacebar to play/pause is more responsive</li>
+							<li>(Almost invisible) table view separators</li>
+							<li>Better tooltips on the player (and dark tooltip frames)</li>
+							<li>When a lab is selected, the session detail view doesn't show a huge empty image anymore</li>
+						</ul>
+						]]></description>
+            <pubDate>Tue, 29 May 2017 23:00:00 -0300</pubDate>
+            <enclosure url="https://github.com/insidegui/WWDC/releases/download/5.0.1/WWDC_v5.0.1.zip" sparkle:version="14" sparkle:shortVersionString="5.0.1" length="13138632" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+	</channel>
+</rss>

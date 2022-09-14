@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>7.3.3</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>http URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>http</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Secure http URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>https</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>WWDC Command URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>x-wwdc-command</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1024</string>
+	<key>GRBundleDesignContributorWebsite</key>
+	<string>https://twitter.com/bcmn96</string>
+	<key>GRBundleIconCreatorWebsite</key>
+	<string>http://www.raphalopes.com</string>
+	<key>GRBundleLicenseName</key>
+	<string>BSD</string>
+	<key>GRBundleMainDeveloperName</key>
+	<string>Guilherme Rambo</string>
+	<key>GRBundleMainDeveloperWebsite</key>
+	<string>https://twitter.com/_inside</string>
+	<key>GRBundleRepositoryName</key>
+	<string>insidegui/WWDC</string>
+	<key>GRBundleRepositoryWebsite</key>
+	<string>https://github.com/insidegui/WWDC</string>
+	<key>GRBundleUserInterfaceCreatorWebsite</key>
+	<string>https://twitter.com/VicenteBorrell</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoadsForMedia</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Calendar access allows you to add events directly from the app to help you plan your WWDC week.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017 Guilherme Rambo. All rights reserved.</string>
+	<key>NSMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://github.com/insidegui/WWDC/raw/master/Releases/appcast_v5.xml</string>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+</dict>
+</plist>
